@@ -1,0 +1,17 @@
+.mobil {
+	display: none;
+}
+
+@media screen and (max-width: 768px) {
+	.mobil {
+		display: block;
+		width: 4rem;
+		height: 4rem;
+		.btn {
+			border-radius: 2rem;
+			padding: 0.25rem;
+			justify-content: center;
+			background-color: aliceblue;
+		}
+	}
+}
